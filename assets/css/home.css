@@ -1,0 +1,45 @@
+#container {
+    display: flex;
+    text-align: center;
+    padding: 10px 0 0 20px;
+    background-color: rgb(64, 64, 64);
+    color: #fff;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 3px 12px;
+    background-color: #fff;
+    color: #1d1b1b;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #929294;
+  }
+  
+ 
+  #container #feed-post {
+    width: 85%;
+    padding: 10px;
+   
+  }
+  
+  #container #user-friends {
+    width: 15%;
+    padding: 10px;
+    /* border-left: 1px solid lightgrey; */
+    height: 100%;
+    color: #fff;
+    
+  }
+  #container #user-friends a{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-display: 0.10;
+  }
+  

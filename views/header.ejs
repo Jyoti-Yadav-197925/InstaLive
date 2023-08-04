@@ -1,0 +1,36 @@
+
+<header id="layout-header">
+    <nav>
+        <div class="mini-logo">
+            <p>
+                <a href='/'>
+                    codeial
+                </a>
+            </p>
+        </div>
+        <!-- <h2>This is the InstaLive..</h2> -->
+        <!-- <br> -->
+        <div class="auth-links">
+
+        <ul>
+            <% if(locals.user){ %>
+                    <!-- <%= user.name %> -->
+                <li>
+                    <a href="/users/profile"><%= user.name %></a>
+                <li>
+                    <a href="/users/signout">Sign-Out</a>
+                </li>
+
+            <% }else{ %>
+            
+                <li>
+                    <a href="/users/signin">Sign-In</a>
+                </li>
+
+                
+                <li>
+                    <a href="/users/signup">Sign-Up</a>
+                </li>
+            <% } %>
+        </ul>
+    </header>

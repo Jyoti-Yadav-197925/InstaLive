@@ -1,0 +1,17 @@
+#layout-footer {
+    /* padding: 5px 10px; */
+    display: flex;
+    align-items: center; /* Center the content vertically */
+    justify-content: center; /* Center the content horizontally */
+    background-color: rgb(64, 64, 64);
+    color: #fff;
+    text-align: center;
+    height: 20px;
+   
+  }
+  #layout-footer h4{
+    font-weight: 500;
+  }
+  
+  
+  
